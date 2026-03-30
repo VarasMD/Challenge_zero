@@ -92,7 +92,7 @@ fun PrimaryActionButton(
 @Composable
 fun TopIllustrationImage() {
     Image(
-        painter = painterResource(id = R.drawable.welcome_illustration),
+        painter = painterResource(id = R.drawable.welcome_image),
         contentDescription = "Welcome illustration",
         modifier = Modifier
             .fillMaxWidth()
