@@ -60,6 +60,8 @@ fun RegisterScreen(modifier: Modifier = Modifier,
                 text = "Create an account so you can explore all the\nexisting jobs",
                 color = Color.Black,
                 fontSize = 12.sp,
+                fontWeight = FontWeight.Medium,
+                lineHeight = 18.sp,
                 textAlign = TextAlign.Center
             )
 
@@ -107,6 +109,7 @@ fun RegisterScreen(modifier: Modifier = Modifier,
                 text = "Already have an account",
                 color = Color.Black,
                 fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -118,7 +121,7 @@ fun RegisterScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Or continue with",
                 color = PrimaryBlue,
-                fontSize = 12.sp,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()

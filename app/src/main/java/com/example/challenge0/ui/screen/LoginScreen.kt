@@ -49,7 +49,7 @@ fun LoginScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Login here",
                 color = PrimaryBlue,
-                fontSize = 28.sp,
+                fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
             )
@@ -59,7 +59,7 @@ fun LoginScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Welcome back you’ve\nbeen missed!",
                 color = Color.Black,
-                fontSize = 17.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.SemiBold,
                 lineHeight = 24.sp,
                 textAlign = TextAlign.Center
@@ -91,7 +91,7 @@ fun LoginScreen(modifier: Modifier = Modifier,
                 modifier = Modifier.fillMaxWidth(),
                 textAlign = TextAlign.End,
                 color = PrimaryBlue,
-                fontSize = 12.sp,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold
             )
 
@@ -110,6 +110,7 @@ fun LoginScreen(modifier: Modifier = Modifier,
                 text = "Create new account",
                 color = Color.Black,
                 fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -121,7 +122,7 @@ fun LoginScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Or continue with",
                 color = PrimaryBlue,
-                fontSize = 12.sp,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.SemiBold,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()

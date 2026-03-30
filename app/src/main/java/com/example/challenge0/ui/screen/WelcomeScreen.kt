@@ -69,7 +69,7 @@ fun WelcomeScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Explore all the existing job roles based on your\ninterest and study major",
                 color = Color.Black,
-                fontSize = 13.sp,
+                fontSize = 14.sp,
                 lineHeight = 18.sp,
                 textAlign = TextAlign.Center
             )
