@@ -80,7 +80,8 @@ fun LoginScreen(modifier: Modifier = Modifier,
                 value = "",
                 onValueChange = {},
                 placeholder = "Password",
-                isPassword = true
+                isPassword = true,
+                focused = true,
             )
 
             Spacer(modifier = Modifier.height(10.dp))

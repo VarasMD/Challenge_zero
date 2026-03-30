@@ -79,7 +79,8 @@ fun RegisterScreen(modifier: Modifier = Modifier,
                 value = "",
                 onValueChange = {},
                 placeholder = "Password",
-                isPassword = true
+                isPassword = true,
+                focused = true
             )
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -88,7 +89,8 @@ fun RegisterScreen(modifier: Modifier = Modifier,
                 value = "",
                 onValueChange = {},
                 placeholder = "Confirm Password",
-                isPassword = true
+                isPassword = true,
+                focused = true
             )
 
             Spacer(modifier = Modifier.height(28.dp))
