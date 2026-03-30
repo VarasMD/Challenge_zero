@@ -95,6 +95,7 @@ fun WelcomeScreen(modifier: Modifier = Modifier,
                     modifier = Modifier
                         .weight(1f)
                         .height(54.dp),
+                    isPrimary = false,
                     onClick = onRegisterClick
                 )
             }
