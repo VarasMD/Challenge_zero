@@ -58,8 +58,8 @@ fun WelcomeScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Discover Your\nDream Job here",
                 color = PrimaryBlue,
-                fontSize = 30.sp,
-                fontWeight = FontWeight.Bold,
+                fontSize = 35.sp,
+                fontWeight = FontWeight.SemiBold,
                 lineHeight = 38.sp,
                 textAlign = TextAlign.Center
             )

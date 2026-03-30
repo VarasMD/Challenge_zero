@@ -59,8 +59,7 @@ fun RegisterScreen(modifier: Modifier = Modifier,
             Text(
                 text = "Create an account so you can explore all the\nexisting jobs",
                 color = Color.Black,
-                fontSize = 13.sp,
-                lineHeight = 18.sp,
+                fontSize = 12.sp,
                 textAlign = TextAlign.Center
             )
 
